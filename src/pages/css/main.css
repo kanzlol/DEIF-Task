@@ -1,0 +1,43 @@
+.mainWindow {
+  margin-top: 1em;
+}
+
+.mainTableRow {
+  text-align: center;
+}
+
+tr.break {
+  height: 1.5em;
+}
+
+table {
+  width: 99%;
+}
+
+th {
+  color: #235A9A;
+}
+
+.info {
+  color: #235A9A;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.data {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #499E24;
+}
+
+.link {
+  color: #235A9A;
+  text-decoration: none;
+}
+
+/* changes font size of shown text on lower resolution screens */
+@media only screen and (max-width: 450px) {
+  .data, th, .info {
+      font-size: 4vw;
+  }
+}

@@ -1,0 +1,96 @@
+.detailedWindow {
+  margin-left: 10%;
+}
+
+.detailedTableRow {
+  text-align: left;
+}
+
+.detailedData {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #499E24;
+}
+
+.detailedTh {
+  text-align: left;
+  font-size: 1.8em;
+}
+
+.dataBtn {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #205699;
+}
+
+pre {
+  margin-bottom: 0.2em;
+}
+
+.backBtn {
+  margin: 1em 0 0 3em;
+  height: 3em;
+  background-image: url('../../images/back-arrow.png');
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  color: #235A9A;
+  display: flex;
+  flex-flow: row nowrap;
+  text-decoration: none;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.backText {
+  margin: 0.9em 0 0 2.5em;
+}
+
+/* changes css on lower resolution screens */
+@media only screen and (max-width: 665px) {
+
+  pre, .detailedTh, .detailedData, .dataBtn {
+      font-size: 2.2vw;
+  }
+
+  .backBtn {
+    height: 2em;
+    background-size: 20px 20px;
+  }
+
+  .backText {
+    font-size: 8px;
+    margin: 0.7em 0 0 1.8em;
+  }
+
+}
+
+@media only screen and (max-width: 435px) {
+
+  .backBtn {
+    height: 2em;
+    background-size: 15px 15px;
+    margin: 1em 0 0 1em;
+  }
+
+  .backText {
+    font-size: 6.5px;
+    margin: 0.5em 0 0 1.3em;
+  }
+
+}
+
+@media only screen and (max-width: 240px) {
+
+  .backBtn {
+    height: 2em;
+    background-size: 10px 10px;
+    margin: 1em 0 0 0.4em;
+  }
+
+  .backText {
+    font-size: 4px;
+    margin: 0.4em 0 0 1.2em;
+  }
+
+}
